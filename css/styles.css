@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+
+body{
+	width:100%;
+	color:#3B4246;
+	font-family:Open Sans;
+	font-size: 1em;
+}
+
+h3{
+	font-family: CubanoRegular;
+}
+
+li a{
+	text-decoration: none;
+	display: inline;
+}
+
+li a:hover{
+	color:#38A72C !important;
+}
+	
+nav li a{
+	font-family: CubanoRegular;
+}
+
+
+button{
+	position:relative;
+	margin-bottom:60px;
+}
+
+.sMenu{
+	width: 100%;
+	height: 100px;
+	background-color:rgba(194,154,138,1.00);
+}
+
+.slideMenu{
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.slides{
+	margin-top: 5px;
+}
+
+
+.slides:hover{
+	transform:scale(1.1);
+	transition: all 300ms ease;
+}
+
+.slides a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.slides a:hover{
+	color:#3B4246;
+}
+
+.aboutTop{
+	width: 100%;
+	height: 150px;
+	background-color:rgba(194,154,138,1.00);
+	box-shadow: 0 1px 3px #000;
+	position: relative;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+}
+
+.aboutBottom{
+	width: 100%;
+	height: 150px;
+	background-color:rgba(194,154,138,1.00);
+	box-shadow: 0 -1px 3px #000;
+	position: relative;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+}
+
+.aboutHome{
+	color:#fff;
+	text-align: center;
+}
+
+.aboutHome p{
+	text-align: center;
+	margin:60px 0;
+}
+
+.contact{
+	background-image: url(../Images/2470_thumbnail-1024.jpg);
+	background-color:rgba(255,255,255,0.75);
+	background-blend-mode:overlay;
+	padding:100px 0;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer{
+	background-color:#3B4246;
+	padding-top:40px;
+	padding-bottom: 20px;
+}
+
+
+.Social li{
+	list-style: none;
+	display: inline;
+}
+
+.Social a{
+	text-decoration: none;
+	color:#38A72C;
+}
+
+.Social a:hover{
+	color:#fff !important;
+}
+
+.Btt{
+	color:#fff;
+}
+
+.Btt img{
+	width: 30px;
+}
+
+.footerNav{
+	text-align: center;
+}
+
+.footerNav li{
+	list-style: none;
+	display: inline;
+}
+
+.footerNav a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.footerNav2{
+	text-align: center;
+}
+
+.footerNav2 li{
+	list-style: none;
+	display: inline;
+}
+
+.footerNav2 a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.Copyright p{
+	color:#fff;
+	font-size: .8em;
+	text-align: center;
+}
